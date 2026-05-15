@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found | Akani M Projects</title>
+  <meta name="description" content="The page you're looking for doesn't exist. Return to Akani M Projects home page." />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://www.akanimprojects.com/" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Barlow:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --black:  #0a0a0a;
+      --dark:   #141414;
+      --border: #333;
+      --orange: #f4611c;
+      --white:  #f5f0ea;
+      --muted:  #888;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: 'Barlow', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 24px;
+    }
+    .glyph {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(120px, 25vw, 220px);
+      font-weight: 900;
+      line-height: 1;
+      color: var(--dark);
+      position: relative;
+      user-select: none;
+    }
+    .glyph span {
+      position: absolute;
+      left: 50%; top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: clamp(24px, 5vw, 42px);
+      color: var(--orange);
+      white-space: nowrap;
+    }
+    h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: clamp(28px, 5vw, 48px);
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+      margin-top: 32px;
+    }
+    p {
+      font-size: 17px;
+      color: var(--muted);
+      font-weight: 300;
+      margin-top: 16px;
+      max-width: 440px;
+      line-height: 1.7;
+    }
+    .actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .btn {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 800;
+      font-size: 15px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 14px 28px;
+      text-decoration: none;
+      transition: all .2s;
+    }
+    .btn-primary {
+      background: var(--orange);
+      color: var(--black);
+      border: 2px solid var(--orange);
+    }
+    .btn-primary:hover { background: transparent; color: var(--orange); }
+    .btn-secondary {
+      background: transparent;
+      color: var(--white);
+      border: 2px solid var(--border);
+    }
+    .btn-secondary:hover { border-color: var(--orange); color: var(--orange); }
+    .quick-links {
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 60px;
+      padding-top: 40px;
+      border-top: 1px solid var(--border);
+      width: 100%;
+      max-width: 640px;
+    }
+    .quick-links a {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color .2s;
+    }
+    .quick-links a:hover { color: var(--orange); }
+  </style>
+</head>
+<body>
+  <div class="glyph" aria-hidden="true">
+    404
+    <span>🔍</span>
+  </div>
+
+  <h1>Page Not Found</h1>
+  <p>The page you're looking for has been moved, removed, or never existed. Let's get you back on track.</p>
+
+  <div class="actions">
+    <a href="/" class="btn btn-primary">← Back to Home</a>
+    <a href="/#contact" class="btn btn-secondary">Contact Us</a>
+  </div>
+
+  <nav class="quick-links" aria-label="Quick navigation">
+    <a href="/#services">Services</a>
+    <a href="/#about">About</a>
+    <a href="/#faq">FAQ</a>
+    <a href="tel:+27722789232">072 278 9232</a>
+  </nav>
+</body>
+</html>

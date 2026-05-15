@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services | Civil Engineering, Construction & Security – Akani M Projects</title>
+  <meta name="description" content="Akani M Projects offers civil engineering, electrical engineering, building construction, water drilling (borehole), security services, and plant & equipment hire across Limpopo, South Africa." />
+  <meta name="keywords" content="civil engineering services Limpopo, borehole drilling Malamulele, building construction Limpopo, plant hire South Africa, security services Limpopo, electrical engineering contractor" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.akanimprojects.com/services.html" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.akanimprojects.com/services.html" />
+  <meta property="og:title" content="Services | Akani M Projects – Engineering & Construction Limpopo" />
+  <meta property="og:description" content="Full-service civil engineering, construction, water drilling, security and equipment hire in Limpopo, South Africa." />
+  <meta property="og:image" content="https://www.akanimprojects.com/assets/images/img-20251111-wa0000-removebg-preview-192x192.png" />
+
+  <!-- JSON-LD breadcrumb -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://www.akanimprojects.com/"},
+      {"@type":"ListItem","position":2,"name":"Services","item":"https://www.akanimprojects.com/services.html"}
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --black:  #0a0a0a; --dark: #141414; --mid: #1e1e1e;
+      --panel:  #252525; --border: #333;
+      --orange: #f4611c; --orange2: #e04e0a;
+      --white:  #f5f0ea; --muted: #999;
+      --font-head: 'Barlow Condensed', sans-serif;
+      --font-body: 'Barlow', sans-serif;
+      --max: 1200px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html  { scroll-behavior: smooth; }
+    body  { background: var(--black); color: var(--white); font-family: var(--font-body); line-height: 1.65; }
+    img   { max-width: 100%; display: block; }
+    a     { color: inherit; text-decoration: none; }
+    .container { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+
+    /* TOP BAR */
+    .topbar { background: var(--orange); padding: 8px 0; font-family: var(--font-head); font-size: 13px; font-weight: 600; letter-spacing: .05em; }
+    .topbar .container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+    .topbar a { color: var(--black); transition: opacity .2s; }
+    .topbar a:hover { opacity: .7; }
+    .topbar-links { display: flex; gap: 24px; }
+
+    /* NAVBAR */
+    .navbar { position: sticky; top: 0; z-index: 100; background: rgba(10,10,10,.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 16px 0; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; gap: 32px; }
+    .nav-logo { display: flex; align-items: center; gap: 12px; }
+    .nav-logo img { width: 44px; height: 44px; object-fit: contain; }
+    .nav-logo-text { font-family: var(--font-head); font-weight: 800; font-size: 20px; letter-spacing: .05em; text-transform: uppercase; line-height: 1.1; }
+    .nav-logo-text small { display: block; font-size: 10px; font-weight: 400; letter-spacing: .2em; color: var(--muted); }
+    .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+    .nav-links a { font-family: var(--font-head); font-size: 14px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #ccc; transition: color .2s; position: relative; }
+    .nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: var(--orange); transition: width .3s; }
+    .nav-links a.active, .nav-links a:hover { color: var(--white); }
+    .nav-links a.active::after, .nav-links a:hover::after { width: 100%; }
+    .nav-cta { background: var(--orange); color: var(--black) !important; padding: 10px 22px; font-family: var(--font-head); font-size: 13px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; transition: background .2s; }
+    .nav-cta:hover { background: var(--orange2); }
+    .hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 4px; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--white); }
+    .mobile-menu { display: none; flex-direction: column; background: var(--dark); border-top: 1px solid var(--border); padding: 20px 24px; gap: 12px; }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { font-family: var(--font-head); font-size: 16px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #ccc; padding: 8px 0; border-bottom: 1px solid var(--border); }
+    .mobile-menu a:hover { color: var(--orange); }
+
+    /* PAGE HERO */
+    .page-hero { background: var(--dark); padding: 80px 0 60px; border-bottom: 1px solid var(--border); position: relative; overflow: hidden; }
+    .page-hero::before { content: 'SERVICES'; position: absolute; right: -10px; top: 50%; transform: translateY(-50%); font-family: var(--font-head); font-size: 180px; font-weight: 900; color: rgba(255,255,255,.02); pointer-events: none; }
+    .breadcrumb { display: flex; gap: 8px; align-items: center; font-family: var(--font-head); font-size: 12px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--muted); margin-bottom: 20px; }
+    .breadcrumb a { color: var(--orange); }
+    .breadcrumb span { color: var(--muted); }
+    .page-hero h1 { font-family: var(--font-head); font-weight: 900; font-size: clamp(40px, 7vw, 80px); text-transform: uppercase; line-height: .95; }
+    .page-hero h1 em { font-style: normal; color: var(--orange); }
+    .page-hero p { font-size: 17px; font-weight: 300; color: #aaa; max-width: 600px; margin-top: 20px; line-height: 1.7; }
+
+    /* SERVICES DETAIL */
+    .services-detail { padding: 80px 0 100px; }
+    .service-block { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; padding: 72px 0; border-bottom: 1px solid var(--border); }
+    .service-block:last-child { border-bottom: none; }
+    .service-block.reverse .service-img { order: 2; }
+    .service-block.reverse .service-copy { order: 1; }
+
+    .service-img { position: relative; }
+    .service-img img { width: 100%; aspect-ratio: 4/3; object-fit: cover; filter: saturate(.7); transition: filter .4s; }
+    .service-img:hover img { filter: saturate(1); }
+    .service-img-label {
+      position: absolute; bottom: 0; left: 0;
+      background: var(--orange); color: var(--black);
+      font-family: var(--font-head); font-size: 12px; font-weight: 800;
+      letter-spacing: .2em; text-transform: uppercase;
+      padding: 6px 16px;
+    }
+
+    .service-num {
+      font-family: var(--font-head); font-size: 80px; font-weight: 900;
+      color: rgba(255,255,255,.04); line-height: 1;
+      margin-bottom: -20px; display: block;
+    }
+    .service-copy h2 { font-family: var(--font-head); font-weight: 900; font-size: clamp(28px, 4vw, 44px); text-transform: uppercase; line-height: 1; margin-bottom: 16px; }
+    .service-copy h2 span { color: var(--orange); }
+    .service-copy p { font-size: 16px; color: #999; line-height: 1.75; margin-bottom: 12px; }
+    .feature-list { list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 8px; }
+    .feature-list li { display: flex; gap: 10px; align-items: flex-start; font-size: 15px; color: #bbb; }
+    .feature-list li::before { content: '→'; color: var(--orange); flex-shrink: 0; font-family: var(--font-head); font-weight: 700; }
+    .service-cta { display: inline-flex; align-items: center; gap: 10px; background: var(--orange); color: var(--black); font-family: var(--font-head); font-weight: 800; font-size: 14px; letter-spacing: .12em; text-transform: uppercase; padding: 14px 28px; border: 2px solid var(--orange); margin-top: 28px; transition: background .2s, color .2s; }
+    .service-cta:hover { background: transparent; color: var(--orange); }
+
+    /* CTA BAND */
+    .cta-band { background: var(--orange); padding: 72px 0; text-align: center; }
+    .cta-band h2 { font-family: var(--font-head); font-weight: 900; font-size: clamp(32px, 5vw, 56px); text-transform: uppercase; color: var(--black); margin-bottom: 16px; }
+    .cta-band p { font-size: 17px; color: rgba(0,0,0,.65); max-width: 500px; margin: 0 auto 36px; }
+    .cta-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .btn-dark { display: inline-flex; align-items: center; gap: 8px; background: var(--black); color: var(--white); font-family: var(--font-head); font-weight: 800; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; padding: 16px 32px; transition: background .2s; }
+    .btn-dark:hover { background: var(--dark); }
+    .btn-outline-dark { display: inline-flex; align-items: center; gap: 8px; background: transparent; color: var(--black); border: 2px solid var(--black); font-family: var(--font-head); font-weight: 800; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; padding: 16px 32px; transition: background .2s, color .2s; }
+    .btn-outline-dark:hover { background: var(--black); color: var(--white); }
+
+    /* FOOTER */
+    footer { background: var(--black); border-top: 1px solid var(--border); padding: 48px 0 24px; }
+    .footer-bottom { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .footer-bottom p { font-size: 13px; color: var(--muted); }
+    .footer-nav { display: flex; gap: 24px; }
+    .footer-nav a { font-size: 13px; color: var(--muted); transition: color .2s; }
+    .footer-nav a:hover { color: var(--orange); }
+
+    /* REVEAL */
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    @media (max-width: 900px) {
+      .nav-links, .nav-cta { display: none; }
+      .hamburger { display: flex; }
+      .service-block { grid-template-columns: 1fr; gap: 36px; }
+      .service-block.reverse .service-img { order: 0; }
+      .service-block.reverse .service-copy { order: 0; }
+    }
+    @media (max-width: 600px) {
+      .topbar-left { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container">
+      <span class="topbar-left">Mon – Fri &nbsp;|&nbsp; 09:00 – 17:00</span>
+      <div class="topbar-links">
+        <a href="tel:+27722789232">📞 072 278 9232</a>
+        <a href="https://wa.me/27722789232" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+        <a href="mailto:akani-mprojects@outlook.com?subject=Service%20Enquiry">✉ Email</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="container">
+        <div class="nav-inner">
+          <a href="/" class="nav-logo" aria-label="Akani M Projects Home">
+            <img src="/assets/images/img-20251111-wa0000-removebg-preview-192x192.png" alt="Akani M Projects Logo" width="44" height="44" />
+            <div class="nav-logo-text">Akani M Projects<small>Engineering &amp; Construction</small></div>
+          </a>
+          <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/services.html" class="active">Services</a></li>
+            <li><a href="/#faq">FAQ</a></li>
+            <li><a href="/#contact">Contact</a></li>
+          </ul>
+          <a href="/#contact" class="nav-cta">Get a Quote →</a>
+          <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <nav class="mobile-menu" id="mobileMenu">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/services.html">Services</a>
+        <a href="/#contact">Contact</a>
+        <a href="tel:+27722789232" style="color:var(--orange)">📞 Call Now</a>
+      </nav>
+    </nav>
+  </header>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-labelledby="pageHeading">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a><span>/</span><span>Services</span>
+        </nav>
+        <h1 id="pageHeading">What We <em>Deliver</em></h1>
+        <p>From the first shovel in the ground to the last security checkpoint — Akani M Projects is your single, trusted partner for every phase of your project.</p>
+      </div>
+    </section>
+
+    <!-- SERVICE BLOCKS -->
+    <section class="services-detail" aria-labelledby="servicesListHeading">
+      <h2 id="servicesListHeading" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;">Our Services</h2>
+      <div class="container">
+
+        <!-- Civil Engineering -->
+        <article class="service-block reveal" id="civil-engineering" aria-labelledby="civilHeading">
+          <div class="service-img">
+            <img src="https://www.akanimprojects.com/assets/images/mbr-510x331.jpg"
+                 alt="Civil engineering project — roads and infrastructure by Akani M Projects" loading="lazy" width="600" height="450" />
+            <span class="service-img-label">Civil Engineering</span>
+          </div>
+          <div class="service-copy">
+            <span class="service-num" aria-hidden="true">01</span>
+            <h2 id="civilHeading">Civil <span>Engineering</span></h2>
+            <p>We deliver end-to-end civil engineering services across roads, drainage, earthworks, and bulk infrastructure. Our teams are equipped and experienced to meet SANS compliance on any scale of project.</p>
+            <p>Working alongside government departments, municipalities, and private developers, we bring technical rigour and on-the-ground reliability to every contract.</p>
+            <ul class="feature-list">
+              <li>Road construction &amp; rehabilitation</li>
+              <li>Stormwater drainage systems</li>
+              <li>Bulk earthworks &amp; site preparation</li>
+              <li>Retaining walls &amp; foundations</li>
+              <li>Bridge and culvert construction</li>
+              <li>Project management &amp; site supervision</li>
+            </ul>
+            <a href="/#contact" class="service-cta">Request a Civil Quote →</a>
+          </div>
+        </article>
+
+        <!-- Electrical Engineering -->
+        <article class="service-block reverse reveal" id="electrical-engineering" aria-labelledby="electricalHeading">
+          <div class="service-img">
+            <img src="https://www.akanimprojects.com/assets/images/mbr-510x340.jpg"
+                 alt="Electrical engineering installation by Akani M Projects" loading="lazy" width="600" height="450" />
+            <span class="service-img-label">Electrical Engineering</span>
+          </div>
+          <div class="service-copy">
+            <span class="service-num" aria-hidden="true">02</span>
+            <h2 id="electricalHeading">Electrical <span>Engineering</span></h2>
+            <p>Our qualified and registered electricians handle industrial, commercial, and residential electrical projects from new installations to upgrades and maintenance contracts.</p>
+            <p>Every installation is compliant with South African National Standards (SANS 10142) and comes with a Certificate of Compliance (CoC).</p>
+            <ul class="feature-list">
+              <li>Distribution board installation &amp; upgrades</li>
+              <li>HV/LV cabling and reticulation</li>
+              <li>Generator connections &amp; standby power</li>
+              <li>Street and outdoor lighting</li>
+              <li>Electrical maintenance contracts</li>
+              <li>Certificate of Compliance (CoC) issuance</li>
+            </ul>
+            <a href="/#contact" class="service-cta">Request an Electrical Quote →</a>
+          </div>
+        </article>
+
+        <!-- Building Construction -->
+        <article class="service-block reveal" id="building-construction" aria-labelledby="constructionHeading">
+          <div class="service-img">
+            <img src="https://www.akanimprojects.com/assets/images/photo-1504307651254-35680f356dfd.jpeg"
+                 alt="Building construction site managed by Akani M Projects" loading="lazy" width="600" height="450" />
+            <span class="service-img-label">Building Construction</span>
+          </div>
+          <div class="service-copy">
+            <span class="service-num" aria-hidden="true">03</span>
+            <h2 id="constructionHeading">Building <span>Construction</span></h2>
+            <p>Residential homes, commercial buildings, schools, clinics, and industrial facilities — our construction teams manage the full build cycle from foundations to handover with precision and accountability.</p>
+            <ul class="feature-list">
+              <li>Residential housing developments</li>
+              <li>Commercial and office buildings</li>
+              <li>Government &amp; social infrastructure</li>
+              <li>Renovations &amp; refurbishments</li>
+              <li>Roofing, plastering &amp; finishing</li>
+              <li>Subcontracting &amp; labour supply</li>
+            </ul>
+            <a href="/#contact" class="service-cta">Request a Construction Quote →</a>
+          </div>
+        </article>
+
+        <!-- Water Drilling -->
+        <article class="service-block reverse reveal" id="water-drilling" aria-labelledby="drillingHeading">
+          <div class="service-img">
+            <img src="https://www.akanimprojects.com/assets/images/hub-83-500x500.png"
+                 alt="Borehole water drilling equipment used by Akani M Projects" loading="lazy" width="600" height="450" />
+            <span class="service-img-label">Water Drilling</span>
+          </div>
+          <div class="service-copy">
+            <span class="service-num" aria-hidden="true">04</span>
+            <h2 id="drillingHeading">Water <span>Drilling</span></h2>
+            <p>Access to clean, sustainable water is critical. We provide professional borehole drilling, pump installation, yield testing, and water quality analysis for residential, agricultural, and municipal clients.</p>
+            <ul class="feature-list">
+              <li>Borehole siting &amp; geophysical surveys</li>
+              <li>Percussion &amp; rotary drilling</li>
+              <li>Pump installation &amp; commissioning</li>
+              <li>Borehole yield testing &amp; reporting</li>
+              <li>Water quality sampling</li>
+              <li>Maintenance &amp; pump repairs</li>
+            </ul>
+            <a href="/#contact" class="service-cta">Request a Drilling Quote →</a>
+          </div>
+        </article>
+
+        <!-- Security Services -->
+        <article class="service-block reveal" id="security-services" aria-labelledby="securityHeading">
+          <div class="service-img">
+            <img src="https://www.akanimprojects.com/assets/images/1766330757477-510x425.jpg"
+                 alt="Security officers provided by Akani M Projects" loading="lazy" width="600" height="450" />
+            <span class="service-img-label">Security Services</span>
+          </div>
+          <div class="service-copy">
+            <span class="service-num" aria-hidden="true">05</span>
+            <h2 id="securityHeading">Security <span>Services</span></h2>
+            <p>Protect your assets, people, and sites with our trained security personnel. We operate across construction sites, business premises, and events — providing 24/7 coverage and peace of mind.</p>
+            <ul class="feature-list">
+              <li>Construction site security</li>
+              <li>Access control &amp; gate management</li>
+              <li>CCTV monitoring support</li>
+              <li>Event security &amp; crowd management</li>
+              <li>Armed response services</li>
+              <li>Security risk assessments</li>
+            </ul>
+            <a href="/#contact" class="service-cta">Request a Security Quote →</a>
+          </div>
+        </article>
+
+        <!-- Plant & Equipment Hire -->
+        <article class="service-block reverse reveal" id="plant-equipment-hire" aria-labelledby="hireHeading">
+          <div class="service-img">
+            <img src="https://www.akanimprojects.com/assets/images/1436335589-96-mykatrade-plant-hire-400x300.png"
+                 alt="Construction plant and equipment available for hire from Akani M Projects" loading="lazy" width="600" height="450" />
+            <span class="service-img-label">Plant &amp; Equipment Hire</span>
+          </div>
+          <div class="service-copy">
+            <span class="service-num" aria-hidden="true">06</span>
+            <h2 id="hireHeading">Plant &amp; Equipment <span>Hire</span></h2>
+            <p>Need machinery or event equipment fast? We offer a comprehensive hire fleet available for daily, weekly, or long-term rental. Qualified operators available on request.</p>
+            <ul class="feature-list">
+              <li>Excavators &amp; TLBs</li>
+              <li>Compactors &amp; rollers</li>
+              <li>Generators &amp; compressors</li>
+              <li>Scaffolding &amp; formwork</li>
+              <li>Tents, chairs &amp; event equipment</li>
+              <li>Operator hire on request</li>
+            </ul>
+            <a href="/#contact" class="service-cta">Request Hire Rates →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CTA BAND -->
+    <section class="cta-band" aria-labelledby="ctaHeading">
+      <div class="container">
+        <h2 id="ctaHeading">Ready to Start Your Project?</h2>
+        <p>Tell us what you need. We'll come back with a detailed, no-obligation quote within one business day.</p>
+        <div class="cta-actions">
+          <a href="/#contact" class="btn-dark">Get a Free Quote →</a>
+          <a href="tel:+27722789232" class="btn-outline-dark">📞 Call Us Now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© 2025 Akani M Projects. All rights reserved. &nbsp;|&nbsp; Malamulele, Limpopo, South Africa</p>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="/">Home</a>
+          <a href="/services.html">Services</a>
+          <a href="/about.html">About</a>
+          <a href="/#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const btn  = document.getElementById('hamburgerBtn');
+    const menu = document.getElementById('mobileMenu');
+    btn.addEventListener('click', () => {
+      const open = menu.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open);
+    });
+    const revealEls = document.querySelectorAll('.reveal');
+    const observer  = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+    }, { threshold: 0.1 });
+    revealEls.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>

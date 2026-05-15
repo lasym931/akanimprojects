@@ -1,0 +1,20 @@
+{
+  "name": "Akani M Projects",
+  "short_name": "Akani M",
+  "description": "Civil & electrical engineering, construction, water drilling, security and equipment hire in Limpopo, South Africa.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#f4611c",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/assets/images/img-20251111-wa0000-removebg-preview-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "construction", "engineering"],
+  "screenshots": []
+}
